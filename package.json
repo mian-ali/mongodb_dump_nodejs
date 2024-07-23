@@ -1,0 +1,27 @@
+{
+  "name": "mongodb_dump_nodejs",
+  "version": "1.0.0",
+  "description": "Backup your MongoDB database",
+  "main": "backup.js",
+  "scripts": {
+    "dev": "nodemon backup.js"
+  },
+  "keywords": ["mongodb_dump", "nodejs" , "cron" , "mongodb" , "backup", "node_crnn"],
+
+  "author": {
+    "name": "Ali Ahmad",
+    "email": "dev.aleahmad@hotmail.com",
+    "url": "https://github.com/mian-ali"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mian-ali/mongodb_dump_nodejs.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "node-cron": "^2.0.3"
+  }
+}
