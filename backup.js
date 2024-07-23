@@ -1,3 +1,8 @@
+/**
+ *
+ * @author Ali Ahmad <https://github.com/mian-ali>
+ */
+
 const { spawn } = require('child_process');
 const path = require('path');
 const cron = require('node-cron');
