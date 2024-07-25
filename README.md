@@ -71,7 +71,7 @@ This project provides a Node.js script to backup your MongoDB database to a `.gz
     npm run dev
     ```
 
-    This will start the `backup.js` script and schedule a backup of your MongoDB database every day at midnight.
+    This will start the `backup.js` script and schedule a backup of your MongoDB database daily at midnight.
 
 ## Restoring the Backup
 
@@ -87,7 +87,7 @@ To restore the MongoDB backup from the `.gzip` file, use the following steps:
     mongorestore --gzip --archive=path/to/your/backup/chat-app.gzip --nsFrom="chat-app.*" --nsTo="new-chat-app.*" --uri="mongodb+srv://<cred>@<your connection string>/chat-app"
     ```
 
-    Replace `path/to/your/backup/chat-app.gzip` with the actual path to your backup file, and `new-chat-app` with the name of the database where you want to restore the data.
+    Replace `path/to/your/backup/chat-app.gzip` with the actual path to your backup file, and `new-chat-app` with the database name where you want to restore the data.
 
 ## Project Structure
 
