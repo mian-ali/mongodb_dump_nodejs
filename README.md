@@ -93,6 +93,7 @@ To restore the MongoDB backup from the `.gzip` file, use the following steps:
 
 ```plaintext
 mongodb_dump_nodejs/
+|── backup
 ├── backup.js
 ├── package.json
 └── README.md
